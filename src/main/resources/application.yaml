@@ -1,0 +1,15 @@
+server:
+  port: 10001
+
+spring:
+#  profiles: dev
+  datasource:
+    username: amoled1
+    password: Amoled1!
+    url: jdbc:mysql://3.34.177.140:3306/military_erp?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul
+#  freemarker:
+#    cache: false
+#  jpa:
+#    database: mysql
+
+swagger.enabled: true
